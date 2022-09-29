@@ -1,0 +1,12 @@
+#login Senha
+Usuario = 'admin'
+Senha = 619
+
+Usu = input("Digite o usuario:") 
+Sen = int(input("Digite sua senha:"))
+
+if Usu == Usuario and Sen == Senha:
+    print ("acesso liberado.")
+else:
+    print ("acesso bloqueado.")
+

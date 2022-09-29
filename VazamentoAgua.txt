@@ -1,0 +1,13 @@
+#vazamentos de água
+contador=0
+listResul= []
+qtdVazamento = int(input('Informe a quantidade de vazamento: '))
+while (contador < qtdVazamento):
+        qtdPerdida = int(input('Informe a quantidade de agua perdida: '))
+        qtdHoras = int(input('Informe quanto tempo o vazamento ficou: '))
+        resultado = qtdPerdida*qtdHoras
+        listResul.append(resultado)
+        contador = contador+1 
+listSum = sum(listResul)
+print('Total de água desperdiçada é de:' , listSum,'Litros')
+

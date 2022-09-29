@@ -1,0 +1,8 @@
+#Idade em dias
+anos = int (input ('Digite sua Idade: '))
+resIdade = anos * 365
+meses = int (input ('Digite o valor do meses: '))
+resMes = meses*30
+dias = int (input ('Digite o valor do dias: '))
+total_de_dias= resIdade+resMes+dias
+print ('Idade total em dias: ',(total_de_dias))

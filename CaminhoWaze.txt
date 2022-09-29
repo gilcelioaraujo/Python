@@ -1,0 +1,26 @@
+#funcionamento do Waze 
+listResul= []
+Caminho = 100
+parar = 5
+Caminho1=0
+Caminho2=0
+Caminho3=0
+
+while (Caminho1 != parar):
+    Caminho1 = int(input('Informe 1 para Seguir em Frente / 2 para Virar a Esquerda / 3 para Virar a Direita: '))
+    if  Caminho1 == 1 :
+        resultado = 100
+    #print (resultado)
+        listResul.append(resultado)
+#print (listResul)
+    elif  Caminho1 == 2:
+        resultado2 = 100
+        listResul.append(resultado2)
+    elif  Caminho1 == 3:
+        resultado3 = 100
+        listResul.append(resultado3)
+else:
+        print("Corrida Finalizada")
+
+listSum = sum(listResul)
+print('Total percorrido é de:' , listSum/1000,'KM')

@@ -1,0 +1,5 @@
+#área do retângulo
+Altura = int (input ("Digite a altura do retângulo: "))
+Base = int (input ("Digite a base do retângulo: "))
+area = Altura * Base
+print ("A área do retângulo é: ", area)

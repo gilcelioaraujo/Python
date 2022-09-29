@@ -1,0 +1,21 @@
+#Produto Mais Barato
+Produto1 = input("Digite o primeiro produto: ")
+ValorProd1 = int(input("Valor do produto 1: "))
+Valor1 = int(ValorProd1)
+
+Produto2 = input("Digite o segundo produto: ")
+ValorProd2 = int(input("Valor do produto 2: "))
+Valor2 = int(ValorProd2)
+
+Produto3 = input("Digite o terceiro produto: ")
+ValorProd3 = int(input("Valor do produto 3: "))
+Valor3 = int(ValorProd3)
+
+if Valor1 < Valor2 and Valor1 < Valor3:
+    print("O produto mais barato é: ", Produto1)
+
+elif Valor2 < Valor1 and Valor2 < Valor3:
+    print("O produto mais barato é: ", Produto2)
+
+elif Valor3 < Valor1 and Valor3 < Valor2:
+    print("O produto mais barato é", Produto3)

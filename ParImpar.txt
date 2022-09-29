@@ -1,0 +1,23 @@
+#Numero Par ou Impar
+numero = int(input('Digite um inteiro: '))
+if numero%2 :
+    print(numero, "Ímpar")
+else:
+    print(numero, "Par")
+	
+#Positivo e Negativo
+numero = int(input('Digite um inteiro: ')) 
+if numero > 0: 
+    print("Positive") 
+elif numero < 0: 
+    print("Negative") 
+else: 
+    print("Igual a zero")    
+
+------------------------------------------------------
+numero = float(input('Digite um número: '))  
+restoDivisao = numero % 2
+if restoDivisao == 0:
+    print('Número par')
+else:
+    print('Número ímpar')

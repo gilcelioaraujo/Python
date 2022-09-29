@@ -1,0 +1,14 @@
+#Vogal ou Consoante
+Letra = input("Informe uma letra:")
+if Letra =="a" or Letra =="A":
+    print("Vogal")
+elif Letra == "e" Letra =="E":
+    print("Vogal")
+elif Letra == "i" Letra =="I":
+    print("Vogal")
+elif Letra == "o" Letra =="O":
+    print("Vogal")
+elif Letra == "u" Letra =="U":
+    print("Vogal")
+else:
+    #print("Consoante")

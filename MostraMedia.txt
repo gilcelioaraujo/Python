@@ -1,0 +1,8 @@
+#mostre a média
+nota1 = int(input('digite a primeiro nota: '))
+nota2 = int(input('digite a segunda nota: '))
+nota3 = int(input('digite o primeiro nota: '))
+nota4 = int(input('digite o segundo nota: '))
+
+media = (nota1+nota2+nota3+nota4)/4
+print('A Media Bimestral é' ,  media)

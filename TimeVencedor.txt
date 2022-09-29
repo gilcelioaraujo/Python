@@ -1,0 +1,13 @@
+# TimeVencedor
+Time1 = input("Digite o nome do primeiro Time: ")
+Placar1 = input("Digite quantos gols o primeiro Time fez: ")
+PlacarTime1 = int(Placar1)
+Time2 = input("Digite o nome do segundo Time: ")
+Placar2 = input("Digite quantos gols o segundo Time fez: ")
+PlacarTime2 = int(Placar2)
+if PlacarTime1 > PlacarTime2:
+    print(Time1,"Campeão")
+elif PlacarTime2 > PlacarTime1:
+    print(Time2,"Campeão")
+elif PlacarTime1 == PlacarTime2:
+    print("EMPATE")

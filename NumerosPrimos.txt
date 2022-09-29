@@ -1,0 +1,28 @@
+# numeros primos
+numero = int(input('digite um numero para saber se ele é primo:'))
+if numero > 1:
+    for i in range(2, numero):
+        if numero % i == 0:
+            print(numero, 'não é primo')
+            break
+    else:
+        print(numero, 'é primo')
+elif numero == 0:
+    print(numero, 'é zero')
+elif numero == 1:
+    print(numero, 'Não é primo')
+else:
+    print(numero, 'é negativo')
+	
+-------------------------------------------------------------------------------	
+#primos
+num = int(input('Entre com o valor inicial: '))
+num2 = int(input('Entre com o valor final: '))
+  
+for i in range(num, num2+1): 
+  if i>1: 
+    for j in range(2,i): 
+        if(i % j==0): 
+            break
+    else: 
+        print(i)
